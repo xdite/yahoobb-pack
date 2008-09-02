@@ -1,0 +1,21 @@
+<p>
+<h1> Hello! Welcome to Project!</h1>
+<p>
+<% if logged_in? %>
+
+User No. <%= current_user.id %> !
+<%= link_to "Edit Settings", :controller => "users",:action => "edit", :id => current_user.id %>
+<%= link_to "Logout", :controller => "sessions", :action => "destroy" %>
+
+</p>
+<% else %>
+Please <%= link_to "Login First", login_path %>
+Please <%= link_to "yahooLogin First", account_yahooLogin_path %>
+<% end %>
+</p>
+
+</p>
+
+<p>
+
+</p>

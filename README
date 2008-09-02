@@ -1,0 +1,23 @@
+= OpenID Pack
+
+== Description
+
+This is a convenient pack to start a project with openid login system ( also can use multiple openid )
+
+== Requirement
+
+sudo gem install ruby-openid
+
+== Contain plugin
+
+Restful Authentication
+https://github.com/technoweenie/restful-authentication/tree
+
+OpenID Authentication
+https://github.com/rails/open_id_authentication/tree
+
+
+== Author & License
+Author: Yi-Ting Cheng (mailto:xdite@handlino.com)
+Copyright (c) 2008 Handlino Inc.
+Licensed under the MIT: http://www.opensource.org/licenses/mit-license.php
