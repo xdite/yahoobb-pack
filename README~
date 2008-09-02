@@ -4,11 +4,6 @@
 
 This is a convenient pack to start a project with openid login system ( also can use multiple openid )
 
-- new feature 
-
-Contains yahooBB
-Additional Information:
-http://sites.google.com/a/veryxd.com/veryxd/Home/Ruby-On-Rails/Yahoo-BBAuth-%E7%B5%90%E5%90%88-act-as-authenicated
 == Requirement
 
 sudo gem install ruby-openid
